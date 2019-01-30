@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>le grain de café | Home | Coffee Perfected</title>
+    <link rel='stylesheet' href='css/styles.css'>
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  </head>
+
+  <body onload="modalAppear()">
+    <main>
+      <header>
+        <div class="main-nav">
+          <ul style="padding-left: 0px;" class="flex">
+            <div class="flex">
+              <li><a href="locations.html" style="margin-right: 6em;">Locations</a></li>
+              <li><a href="products.html" style="margin-right: 6em;">Products</a></li>
+            </div>
+
+            <div class="nav-title-container">
+              <a href="index.html" class="logo">Le Grain De Café</a>
+            </div>
+
+            <div class="flex">
+              <li><a href="about.html" style="margin-left: 6em;">About</a></li>
+              <li><a href="contact.html" style="margin-left: 6em;">Contact</a></li>
+            </div>
+          </ul>
+        </div>
+
+        <div id="mobile-nav">
+
+          <div class="nav-bar">
+            <div class="hamburger" onclick="toggleNavMenu()">
+              <span></span>
+              <span></span>
+              <span class="s3"></span>
+            </div>
+
+            <div class="nav-title-container">
+              <a href="index.html" class="logo">Le Grain De Café</a>
+            </div>
+          </div>
+
+          <div id="mobile-nav-menu" class="menu-slide">
+            <div class="menu-content">
+              <div class="link-container">
+                <ul>
+                  <li>
+                    <span class="flex">
+                      <a href="locations.html">Locations</a>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="flex">
+                      <a href="products.html">Products</a>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="flex">
+                      <a href="about.html">About</a>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="flex">
+                      <a href="contact.html">Contact</a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <div class="modal">
+        <div class="modal-content">
+          <h1>Want 20% off your first purchase?</h1><br>
+          <h2>Enter your email below</h2><br>
+          <input type="email" id="mail">
+          <input type="submit" id="submit">
+          <p onclick="modalClose()">No thanks. I don't want great discounts.</p>
+        </div>
+      </div>
+
+      <div class="modal-overlay">
+      </div>
+
+      <div class="main-heading">
+        <div class="main-title">
+          <span class="animateTitle">Explore Coffee</span>
+        </div>
+
+        <div class="button-container">
+          <a href="about.html"><button class="button">Learn More</button></a>
+        </div>
+      </div>
+
+      <div class="container-1">
+        <div class="container-title">
+          <h2>We Define Coffee</h2>
+        </div>
+
+        <div class="container-section">
+          <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p><br>
+          <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.</p><br>
+          <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+
+      <div class="container-2">
+        <img src="images/coffee_beans_spun.jpg"></img>
+      </div>
+
+      <div class="container-3">
+        <div class="container-title">
+          <h2>Your purchase makes a difference</h2>
+        </div>
+
+        <div class="container-section">
+          <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore.</p><br>
+          <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud.</p><br>
+          <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.</p><br>
+          <p class="base-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="container-4">
+        <img src="images/mountain_trees_2.jpg"></img>
+      </div>
+
+      <div class="container-5">
+        <div class="photo-container">
+
+          <div class="full-photo">
+            <img src="images/espresso_machine.jpg"></img>
+          </div>
+
+          <div class="dual-photo">
+            <div class="girl-smile">
+              <img src="images/girl_smile_coffee.jpg"></img>
+            </div>
+
+            <div class="sweets">
+              <img src="images/sweets.jpg"></img>
+            </div>
+          </div>
+
+          <div class="full-photo">
+            <img src="images/biscuits.jpg"></img>
+          </div>
+
+          <div class="dual-photo">
+            <div class="high-lights">
+              <img src="images/high_lights.jpg"></img>
+            </div>
+
+            <div class="rugged-guy-drink">
+              <img src="images/guy_rugged_drink_pour.jpg"></img>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-6">
+        <div class="container-6-title">
+          <span>Come Visit Us</span>
+        </div>
+
+        <div class="button-container">
+          <a href="locations.html"><button class="button">Learn More</button></a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-section">
+          <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit 2018.</p>
+        </div>
+      </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="javascript/jQuery.js"></script>
+    <script src="javascript/toggle.navigation.js"></script>
+    <script src="javascript/modal.js"></script>
+  </body>
+
+</html>

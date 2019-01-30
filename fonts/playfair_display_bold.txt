@@ -1,0 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i" rel="stylesheet">
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i');
+
+font-family: 'Playfair Display', serif;
