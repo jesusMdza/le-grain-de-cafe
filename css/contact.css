@@ -561,6 +561,12 @@ textarea {
   }
 }
 
+@media (max-width: 660px) {
+  .main-heading {
+    height: 42em;
+  }
+}
+
 @media (max-width: 340px) {
   .main-heading {
     height: 36em;
@@ -596,5 +602,9 @@ textarea {
 
   .container-section h2 {
     font-size: 1.8em;
+  }
+
+  .footer-section p {
+    font-size: 10px;
   }
 }
